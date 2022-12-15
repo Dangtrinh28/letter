@@ -1,0 +1,10 @@
+body {
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.box {
+    position: relative;
+    top: 80%;
+    
+}

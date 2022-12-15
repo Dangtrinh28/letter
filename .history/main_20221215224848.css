@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+    background-color: #2B3467;
+}
+
+.box {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+}
+
+.box::before {
+    position: absolute;
+    content: "";
+    background-color: #e69c9f;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 40%, 50% 0, 100% 40%, 100% 100%, 0 100%);
+}
+
+box::after {
+    
+}
